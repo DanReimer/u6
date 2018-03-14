@@ -1,2 +1,2 @@
-<h1>Customers Without an Email Address</h1>
+<h1><%= 'Customer'.pluralize(@customers.count) %> Without an Email Address</h1>
 <%= render partial: 'customer', collection: @customers %>
