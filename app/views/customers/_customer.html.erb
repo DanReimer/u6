@@ -1,7 +1,9 @@
-<div>
-  <h3><%= customer.full_name %></h3>
-  <p><%= image_tag customer.image, height: '75px' %></p>
-  <p><%= customer.phone_number %></p>
-  <p><%= customer.email %></p>
-  <p><strong>Notes:</strong> <%= customer.notes%></p>
+<div class="customer">
+  <%= image_tag customer.image %>
+  <div class="customer-info">
+    <h3><%= customer.full_name %></h3>
+    <p><%= customer.phone_number %></p>
+    <p><%= customer.email %></p>
+    <p><strong>Notes:</strong> <%= customer.notes%></p>
+  </div>
 </div>

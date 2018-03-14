@@ -1,3 +1,27 @@
 // Place all the styles related to the customers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  padding: 3px 15px;
+}
+
+img {
+  width: 100%;
+}
+
+div.customer {
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: inline-block;
+  vertical-align:top;
+  margin: 10px;
+
+  .customer-info {
+    padding: 2px 16px;
+  }
+}
+
+div.customer:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
