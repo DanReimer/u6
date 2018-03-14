@@ -1,0 +1,4 @@
+<h1>Customers Without an Email Address</h1>
+<% @customers.each do |customer| %>
+  <% render customer(customer) %>
+<% end %>
